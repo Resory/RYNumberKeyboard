@@ -26,7 +26,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="Ly1-TZ-Xdx"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="5">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -39,7 +39,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="n20-Jg-PFV"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="8">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -52,7 +52,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="bpv-Li-El0"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="9">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -65,7 +65,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="u0F-Yy-v6Y"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="2">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -90,7 +90,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="yqs-pU-pwP"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="7">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -103,7 +103,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="PFX-jY-dxh"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="6">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -116,7 +116,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="ygm-Yh-oWB"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="3">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -129,7 +129,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="RMM-hu-VjQ"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="1">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -142,7 +142,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="URd-QB-PKG"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="4">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -155,7 +155,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="1f6-VR-ty9"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="0">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -180,7 +180,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="54" id="P0G-cx-ZWk"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title=".">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
@@ -194,7 +194,7 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="108" id="FFJ-dW-zJb"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="确认">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
