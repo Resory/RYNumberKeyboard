@@ -16,7 +16,6 @@
     if(keyboardType == UIKeyboardTypeNumberPad)
     {
         RYNumberKeyboard *tNumberKb = [[RYNumberKeyboard alloc] init];
-        tNumberKb.textFiled = self;
         self.inputView = tNumberKb;
     }
 }
