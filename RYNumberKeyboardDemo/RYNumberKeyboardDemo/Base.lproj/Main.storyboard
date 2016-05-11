@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -26,18 +25,43 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xs2-2v-9zN">
+                                <rect key="frame" x="70" y="256" width="180" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="z0R-Gb-BAG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uBX-Ml-yqQ">
+                                <rect key="frame" x="70" y="313" width="180" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bRt-8G-RNd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="qaM-Bh-q5E" secondAttribute="trailing" constant="70" id="5kL-VJ-cPo"/>
+                            <constraint firstAttribute="trailing" secondItem="xs2-2v-9zN" secondAttribute="trailing" constant="70" id="7a2-ra-KHe"/>
                             <constraint firstItem="qaM-Bh-q5E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="70" id="Hl3-p1-f9L"/>
+                            <constraint firstItem="xs2-2v-9zN" firstAttribute="top" secondItem="qaM-Bh-q5E" secondAttribute="bottom" constant="26" id="MUa-Wp-V0c"/>
                             <constraint firstItem="qaM-Bh-q5E" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="XHc-2N-EwI"/>
+                            <constraint firstItem="uBX-Ml-yqQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="70" id="dWk-sa-lN1"/>
+                            <constraint firstAttribute="trailing" secondItem="uBX-Ml-yqQ" secondAttribute="trailing" constant="70" id="obU-ah-7mj"/>
+                            <constraint firstItem="xs2-2v-9zN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="70" id="thF-K2-qvJ"/>
+                            <constraint firstItem="uBX-Ml-yqQ" firstAttribute="top" secondItem="xs2-2v-9zN" secondAttribute="bottom" constant="27" id="yW3-xi-MCe"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="textFiled" destination="qaM-Bh-q5E" id="Z2q-Lc-SEV"/>
+                        <outlet property="textFiledThree" destination="uBX-Ml-yqQ" id="otE-Kl-0oQ"/>
+                        <outlet property="textFiledTwo" destination="xs2-2v-9zN" id="ExD-5T-aEQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5.333333333333333" y="154.78"/>
         </scene>

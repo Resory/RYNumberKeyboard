@@ -7,10 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "RYNumberKeyboard.h"
+#import "UITextField_RYProperty.h"
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *textFiled;
+@property (weak, nonatomic) IBOutlet UITextField *textFiledTwo;
+@property (weak, nonatomic) IBOutlet UITextField *textFiledThree;
+
 
 @end
 
@@ -18,8 +23,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.textFiled.keyboardType = UIKeyboardTypeNumberPad;
+   
+    self.textFiled.ry_inputType = RYIntInputType;
+    self.textFiledTwo.ry_inputType = RYIDCardInputType;
+    self.textFiledThree.ry_inputType = RYFloatInputType;
     
     // Do any additional setup after loading the view, typically from a nib.
 }
