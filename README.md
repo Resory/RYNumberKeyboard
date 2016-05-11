@@ -1,6 +1,15 @@
 # RYNumberKeyboard
 
-`RYNumberKeyboard` 是一个模仿支付宝的数字键盘，使用非常简单，只需将你的TextFiled的keyboardType设置成UIKeyboardTypeNumberPad即可
+`RYNumberKeyboard` 是一个数字相关键盘，目前有三种类型：整数键盘，浮点数键盘，身份证键盘。
+
+# 使用方法
+### 引用头文件： #import "UITextField+RYNumberKeyboard.h"
+```
+  yourTextFiled.textFiled.ry_inputType = RYIntInputType;       //数字键盘
+  yourTextFiled.textFiled.ry_inputType = RYIDCardInputType;    //浮点数键盘
+  yourTextFiled.textFiled.ry_inputType = ry_inputType;         //身份证键盘
+  
+```
 
 # 效果
 
