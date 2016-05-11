@@ -27,8 +27,6 @@
     self.textFiledTwo.ry_inputType = RYIDCardInputType;
     self.textFiledThree.ry_inputType = RYFloatInputType;
     
-    NSLog(@"%ld",self.textFiled.ry_inputType);
-    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
