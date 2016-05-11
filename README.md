@@ -5,11 +5,11 @@
 # 使用方法
 
 ```
-   #import "UITextField+RYNumberKeyboard.h"
+  #import "UITextField+RYNumberKeyboard.h"
   
-  yourTextFiled.textFiled.ry_inputType = RYIntInputType;       //数字键盘
-  yourTextFiled.textFiled.ry_inputType = RYIDCardInputType;    //浮点数键盘
-  yourTextFiled.textFiled.ry_inputType = ry_inputType;         //身份证键盘
+  yourTextFiled.ry_inputType = RYIntInputType;       //数字键盘
+  yourTextFiled.ry_inputType = RYIDCardInputType;    //浮点数键盘
+  yourTextFiled.ry_inputType = RYFloatInputType;     //身份证键盘
 ```
 
 # 效果
