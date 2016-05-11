@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RYNumberKeyboard.h"
 
 @interface UITextField (RYNumberKeyboard)
 
+@property (nonatomic, assign) RYInputType ry_inputType;
+
 @end
+
+

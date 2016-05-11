@@ -61,7 +61,6 @@
 		037DA7091C79FF2300D8896F /* RYNumberKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYNumberKeyboard.xib; sourceTree = "<group>"; };
 		037DA70D1C79FF4000D8896F /* UITextField+RYNumberKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+RYNumberKeyboard.h"; sourceTree = "<group>"; };
 		037DA70E1C79FF4000D8896F /* UITextField+RYNumberKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RYNumberKeyboard.m"; sourceTree = "<group>"; };
-		03E29A271CE31ECC002A0CAD /* UITextField_RYProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITextField_RYProperty.h; path = RYNumberKeyboard/UITextField_RYProperty.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +157,6 @@
 				037DA7061C79FF2300D8896F /* RYNumbeKeyboard.bundle */,
 				037DA70D1C79FF4000D8896F /* UITextField+RYNumberKeyboard.h */,
 				037DA70E1C79FF4000D8896F /* UITextField+RYNumberKeyboard.m */,
-				03E29A271CE31ECC002A0CAD /* UITextField_RYProperty.h */,
 				037DA7071C79FF2300D8896F /* RYNumberKeyboard.h */,
 				037DA7081C79FF2300D8896F /* RYNumberKeyboard.m */,
 				037DA7091C79FF2300D8896F /* RYNumberKeyboard.xib */,

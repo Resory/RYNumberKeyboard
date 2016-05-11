@@ -7,25 +7,20 @@
 //
 
 #import "UITextField+RYNumberKeyboard.h"
-#import "UITextField_RYProperty.h"
-#import "RYNumberKeyboard.h"
+#import <objc/runtime.h>
 
 @implementation UITextField (RYNumberKeyboard)
 
--(void)setRy_inputType:(int)ry_inputType
+- (void)setRy_inputType:(RYInputType)ry_inputType
 {
     RYNumberKeyboard *inputView = [[RYNumberKeyboard alloc] initWithInputType:ry_inputType];
     self.inputView = inputView;
+    objc_setAssociatedObject(self, _cmd, @(ry_inputType), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-//- (void)setRy_inputType:(RYInputType)ry_inputType
-//{
-//    objc_setAssociatedObject(self, _cmd, @(ry_inputType), OBJC_ASSOCIATION_ASSIGN);
-//}
-//
-//- (RYInputType)ry_inputType
-//{
-//    return objc_getAssociatedObject(self, _cmd);
-//}
+- (RYInputType)ry_inputType
+{
+    return [objc_getAssociatedObject(self, @selector(setRy_inputType:)) integerValue];
+}
 
 @end
