@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RYNumberKeyboard.h"
 #import "UITextField+RYNumberKeyboard.h"
 
 @interface ViewController ()
@@ -22,11 +23,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+
     self.textFiled.ry_inputType = RYIntInputType;
     self.textFiledTwo.ry_inputType = RYIDCardInputType;
     self.textFiledThree.ry_inputType = RYFloatInputType;
     
+    self.textFiled.ry_interval = 4;
+    self.textFiledTwo.ry_interval = 6;
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -18,7 +18,9 @@ typedef NS_ENUM(NSUInteger, RYInputType) {
 
 @property (nonatomic, strong) UITextField *textFiled;
 @property (nonatomic, assign) RYInputType inputType;
+@property (nonatomic, strong) NSNumber *interval;           // 每隔多少个数字空一格
 
 - (id)initWithInputType:(RYInputType)inputType;
+
 
 @end

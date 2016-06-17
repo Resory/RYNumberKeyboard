@@ -23,4 +23,16 @@
     return [objc_getAssociatedObject(self, @selector(setRy_inputType:)) integerValue];
 }
 
+- (void)setRy_interval:(NSInteger)ry_interval
+{
+    if([self.inputView isKindOfClass:[RYNumberKeyboard class]])
+        [self.inputView performSelector:@selector(setInterval:) withObject:@(ry_interval)];
+    objc_setAssociatedObject(self, _cmd, @(ry_interval), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (NSInteger)ry_interval
+{
+    return [objc_getAssociatedObject(self, @selector(setRy_interval:)) integerValue];
+}
+
 @end

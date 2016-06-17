@@ -37,6 +37,10 @@
                                                  selector:@selector(editingDidEnd:)
                                                      name:UITextFieldTextDidEndEditingNotification
                                                    object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self
+//                                                 selector:@selector(editChangeing:)
+//                                                     name:UITextFieldTextDidChangeNotification
+//                                                   object:nil];
         
         // 添加keyboardview
         [[NSBundle mainBundle] loadNibNamed:@"RYNumberKeyboard" owner:self options:nil];
@@ -54,10 +58,17 @@
     return self;
 }
 
+- (void)setInterval:(NSNumber *)interval
+{
+    _interval = interval;
+}
+
 - (void)setInputType:(RYInputType)inputType
 {
     UIButton *xBtn = [self viewWithTag:1011];
     UIButton *dotBtn = [self viewWithTag:1010];
+    
+    _inputType = inputType;
     
     switch (inputType)
     {
@@ -123,6 +134,9 @@
             // 数字
             NSString *text = [NSString stringWithFormat:@"%ld",sender.tag - 1000];
             [self.textInput insertText:text];
+            
+            if(self.interval && (self.textInput.text.length+1) % ([self.interval integerValue] + 1) == 0)
+                [self.textInput insertText:@" "];
         }
             break;
     }
