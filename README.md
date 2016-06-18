@@ -8,8 +8,8 @@
   #import "UITextField+RYNumberKeyboard.h"
   
   yourTextFiled.ry_inputType = RYIntInputType;       //数字键盘
-  yourTextFiled.ry_inputType = RYIDCardInputType;    //浮点数键盘
-  yourTextFiled.ry_inputType = RYFloatInputType;     //身份证键盘
+  yourTextFiled.ry_inputType = RYIDCardInputType;    //身份证键盘
+  yourTextFiled.ry_inputType = RYFloatInputType;     //浮点数键盘
   
   yourTextFiled.ry_interval = 4  //每隔4个数字输入一个空格。
 ```
