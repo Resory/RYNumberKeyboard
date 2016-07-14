@@ -13,6 +13,7 @@
 
 @property (nonatomic, assign) RYInputType ry_inputType;     // 键盘类型
 @property (nonatomic, assign) NSInteger ry_interval;        // 每隔多少个数字空一格
+@property (nonatomic, copy) NSString *ry_inputAccessoryText;  // inputAccessoryView显示的文字
 
 @end
 

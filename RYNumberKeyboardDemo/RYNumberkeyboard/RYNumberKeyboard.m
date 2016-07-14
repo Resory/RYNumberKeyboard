@@ -8,9 +8,6 @@
 
 #import "RYNumberkeyboard.h"
 
-#define SYS_DEVICE_WIDTH    ([[UIScreen mainScreen] bounds].size.width)                 //屏幕宽度
-#define SYS_DEVICE_HEIGHT   ([[UIScreen mainScreen] bounds].size.height)                //屏幕长度
-
 @interface RYNumberKeyboard ()<UIKeyInput>
 
 @property (strong, nonatomic) IBOutlet UIView *keyboardView;
@@ -27,7 +24,6 @@
     
     if(self)
     {
-        
         // 通知
         [[NSNotificationCenter defaultCenter] addObserver:self
                                                  selector:@selector(editingDidBegin:)
@@ -37,10 +33,6 @@
                                                  selector:@selector(editingDidEnd:)
                                                      name:UITextFieldTextDidEndEditingNotification
                                                    object:nil];
-//        [[NSNotificationCenter defaultCenter] addObserver:self
-//                                                 selector:@selector(editChangeing:)
-//                                                     name:UITextFieldTextDidChangeNotification
-//                                                   object:nil];
         
         // 添加keyboardview
         [[NSBundle mainBundle] loadNibNamed:@"RYNumberKeyboard" owner:self options:nil];
