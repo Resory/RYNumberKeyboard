@@ -17,6 +17,7 @@
 - (void)setRy_inputType:(RYInputType)ry_inputType
 {
     RYNumberKeyboard *inputView = [[RYNumberKeyboard alloc] initWithInputType:ry_inputType];
+    inputView.textInput = self;
     self.inputView = inputView;
     objc_setAssociatedObject(self, _cmd, @(ry_inputType), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }

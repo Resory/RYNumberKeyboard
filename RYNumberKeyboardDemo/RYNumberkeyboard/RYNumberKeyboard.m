@@ -12,7 +12,6 @@
 
 @property (strong, nonatomic) IBOutlet UIView *keyboardView;
 @property (weak, nonatomic) IBOutlet UIButton *deleteBtn;
-@property (nonatomic, weak) UITextField<UITextInput> *textInput;
 
 @end
 
@@ -25,14 +24,14 @@
     if(self)
     {
         // 通知
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(editingDidBegin:)
-                                                     name:UITextFieldTextDidBeginEditingNotification
-                                                   object:nil];
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(editingDidEnd:)
-                                                     name:UITextFieldTextDidEndEditingNotification
-                                                   object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self
+//                                                 selector:@selector(editingDidBegin:)
+//                                                     name:UITextFieldTextDidBeginEditingNotification
+//                                                   object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self
+//                                                 selector:@selector(editingDidEnd:)
+//                                                     name:UITextFieldTextDidEndEditingNotification
+//                                                   object:nil];
         
         // 添加keyboardview
         [[NSBundle mainBundle] loadNibNamed:@"RYNumberKeyboard" owner:self options:nil];
@@ -136,19 +135,19 @@
 
 #pragma mark -
 #pragma mark - Notification Action
-- (void)editingDidBegin:(NSNotification *)notification {
-    if (![notification.object conformsToProtocol:@protocol(UITextInput)])
-    {
-        self.textInput = nil;
-        return;
-    }
-    self.textInput = notification.object;
-}
-
-- (void)editingDidEnd:(NSNotification *)notification
-{
-    self.textInput = nil;
-}
+//- (void)editingDidBegin:(NSNotification *)notification {
+//    if (![notification.object conformsToProtocol:@protocol(UITextInput)])
+//    {
+//        self.textInput = nil;
+//        return;
+//    }
+//    self.textInput = notification.object;
+//}
+//
+//- (void)editingDidEnd:(NSNotification *)notification
+//{
+//    self.textInput = nil;
+//}
 
 #pragma mark -
 #pragma mark - UIKeyInput Protocol

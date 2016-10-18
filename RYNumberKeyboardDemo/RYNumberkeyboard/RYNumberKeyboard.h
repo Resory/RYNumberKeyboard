@@ -19,7 +19,7 @@ typedef NS_ENUM(NSUInteger, RYInputType) {
 
 @interface RYNumberKeyboard : UIView
 
-@property (nonatomic, strong) UITextField *textFiled;
+@property (nonatomic, weak) UITextField<UITextInput> *textInput;
 @property (nonatomic, assign) RYInputType inputType;        // 键盘类型
 @property (nonatomic, strong) NSNumber *interval;           // 每隔多少个数字空一格
 
