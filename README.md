@@ -17,5 +17,3 @@
 # 效果
 
 ![RYNumberKeyboard](https://github.com/Resory/Images/blob/master/RYNumberKeyboard.gif)
-
-pr
